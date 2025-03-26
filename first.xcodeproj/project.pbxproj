@@ -23,6 +23,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E253F34C2D81FA640076BDB8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E2EF4B7C2D786E5600313067 /* first.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = first.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EF4B8C2D786E5700313067 /* firstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,12 +85,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E253F3462D81FA640076BDB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2EF4B732D786E5600313067 = {
 			isa = PBXGroup;
 			children = (
 				E2EF4B7E2D786E5600313067 /* first */,
 				E2EF4B8F2D786E5700313067 /* firstTests */,
 				E2EF4B992D786E5700313067 /* firstUITests */,
+				E253F3462D81FA640076BDB8 /* Frameworks */,
 				E2EF4B7D2D786E5600313067 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +123,7 @@
 				E2EF4B782D786E5600313067 /* Sources */,
 				E2EF4B792D786E5600313067 /* Frameworks */,
 				E2EF4B7A2D786E5600313067 /* Resources */,
+				E253F34C2D81FA640076BDB8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +217,8 @@
 			);
 			mainGroup = E2EF4B732D786E5600313067;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E2EF4B7D2D786E5600313067 /* Products */;
 			projectDirPath = "";
